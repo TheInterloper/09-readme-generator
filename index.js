@@ -67,9 +67,10 @@ const generateReadme = ({title, description, install, usage, credits, license, g
     
     ${description}
     
-    https://theinterloper.github.io/01coderefactor/
+    ${github}
     
-    ![](assets/images/Horiseon.png)
+    SCREENSHOT IMAGE HERE
+    ![](assets/images/... )
     
     ## Installation
     
