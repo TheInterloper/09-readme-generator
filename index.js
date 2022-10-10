@@ -30,11 +30,11 @@ inquirer
     {
         type: 'input',
         name: 'credits',
-        message: 'What are the contributors of your project?',
+        message: 'List any additonal contributors to your project here',
     },
     {   type: 'list',
         name: 'license',
-        message: 'What license should be used on this project?',
+        message: 'What type of license should be used on this project?',
         choices: ['MIT','BSD-3-Clause',]
     },
     {
@@ -58,10 +58,15 @@ inquirer
 const generateReadme = ({title, description, install, usage, credits, license, github}) => 
 
     `# ${title}
-
-    ## License
     
     ${license}
+
+    # Table of Contents
+
+    1. [Installation] (#installation)
+    2. [Usage] (#usage) 
+    3. [Credits] (#credits)
+    4. [License] (#license)
 
     ## Description
     
@@ -69,7 +74,7 @@ const generateReadme = ({title, description, install, usage, credits, license, g
     
     ${github}
     
-    SCREENSHOT IMAGE HERE
+    INSERT SCREENSHOT IMAGE HERE
     ![](assets/images/... )
     
     ## Installation
@@ -83,7 +88,9 @@ const generateReadme = ({title, description, install, usage, credits, license, g
     ## Credits
     
     ${credits}
-    
+
+    ## License
+    ${license}
     `;
 
 // TODO: Create a function to initialize app
