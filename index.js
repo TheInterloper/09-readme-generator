@@ -26,7 +26,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(response) {
-    fs.writeFile('README.md', content, (err) => 
+    fs.writeFile('README.md', response, (err) => 
         err ? console.log(err) : console.log('README generated successfully'))
 }
 
@@ -77,7 +77,7 @@ function init() {
 
         {   type: 'list',
 
-            name: 'license',
+            name: 'licenses',
 
             message: questions[5],
 
