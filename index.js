@@ -81,7 +81,7 @@ function init() {
 
             message: questions[5],
 
-            choices: ['NONE','Apache 2.0', 'BSD-3', 'MIT', 'MPL 2.0', 'WTFPL']
+            choices: ['Apache 2.0', 'BSD-3', 'MIT', 'MPL 2.0', 'WTFPL', 'NONE']
         },
 
         {
