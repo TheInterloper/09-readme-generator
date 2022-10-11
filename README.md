@@ -1,5 +1,6 @@
-tr
-  # tr
+ #
+
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]
     
   # Table of Contents
 
@@ -10,7 +11,7 @@ tr
 
   # Description
   
-  t
+  
   
    
   INSERT SCREENSHOT IMAGE HERE AFTER README IS GENERATED
@@ -18,20 +19,21 @@ tr
   
   # Installation
   
-  t
+  
   
   # Usage
   
-  t
+  
   
   # Credits
   
-  t
+  
 
   # Licenses
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)]
-  (https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]
+  (https://opensource.org/licenses/BSD-3-Clause)
+  test2
 
   # Contact Information
-  t
-  t
+  
+  
